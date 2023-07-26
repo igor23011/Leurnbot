@@ -13,14 +13,13 @@ def greet_user(bot, update):
 
 def talk_to_me(bot, update):
     user_text = "Привет {} ! Ты написал: {}.".format(update.message.chat.first_name,
-     update.message.text) 
+    update.message.text) 
     logging.info("User: %s, Chat id: %s, Message: %s",update.message.chat.first_name, 
                 update.message.chat.id, update.message.text)
     update.message.reply_text(user_text)    
 
 def main():
     mybot = Updater(setting.KEY)
-
     logging.info("Bot start")
 
     dp = mybot.dispatcher
