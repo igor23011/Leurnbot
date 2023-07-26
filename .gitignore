@@ -1,0 +1,5 @@
+*.log
+config.py
+nn.py
+bot.py
+setting.py
