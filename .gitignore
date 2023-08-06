@@ -1,5 +1,8 @@
 *.log
 config.py
 nn.py
-bot.py
 setting.py
+bot4.py
+bot2.py 
+bot1.py 
+Leurnbot.*
